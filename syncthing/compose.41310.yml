@@ -9,5 +9,5 @@ services:
     ports:
       - "8384:8384/tcp"
     volumes:
-      - 'D:/Syncthing:/var/syncthing'
-      - 'D:/Sync:/data'
+      - '${root:?}/Syncthing:/var/syncthing'
+      - '${root:?}/Sync:/data'

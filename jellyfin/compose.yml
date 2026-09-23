@@ -9,6 +9,6 @@ services:
       - "8096:8096/tcp"
       - "7359:7359/udp"
     volumes:
-      - D:\Jellyfin\config:/config
-      - D:\Jellyfin\cache:/cache
-      - D:\Downloads\Media:/media
+      - '${root:?}/Jellyfin/config:/config'
+      - '${root:?}/Jellyfin/cache:/cache'
+      - '${root:?}/Sync/Media:/media'
