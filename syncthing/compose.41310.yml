@@ -1,0 +1,13 @@
+name: alexandria
+
+services:
+  syncthing:
+    image: syncthing/syncthing:latest
+    container_name: syncthing
+    hostname: desktop-41310
+    restart: unless-stopped
+    ports:
+      - "8384:8384/tcp"
+    volumes:
+      - 'D:/Syncthing:/var/syncthing'
+      - 'D:/Sync:/data'
