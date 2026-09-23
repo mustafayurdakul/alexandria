@@ -1,4 +1,6 @@
-Jellyfin and Syncthing on Windows 11 using Docker Desktop (Linux containers).
+# Alexandria
+
+Docker Compose setup for Jellyfin media streaming and one-way Syncthing backups between two Windows 11 PCs over Tailscale. Uses Docker Desktop with Linux containers.
 
 Run commands from this project's root folder. Keep both PCs connected to Tailscale with MagicDNS enabled.
 
