@@ -11,4 +11,5 @@ services:
     volumes:
       - '${root:?}/Jellyfin/config:/config'
       - '${root:?}/Jellyfin/cache:/cache'
-      - '${root:?}/Sync/Media:/media'
+      - '${root:?}/Sync/Media:/sync'
+      - 'D:/Media:/media'
